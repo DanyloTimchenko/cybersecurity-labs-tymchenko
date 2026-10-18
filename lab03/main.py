@@ -93,7 +93,7 @@ def extract_message(filename):
 print("\nПеревірка відкриття зображення:")
 image = open_image("стол.webp")
 
-message = "Тимченко Данило Олексійович\nДата народження: 22.08.2006"
+message = "Laboratorna robota 3. Test LSB steganography."
 
 print("\nПриховування повідомлення методом LSB:")
 hide_message(image, message, "hidden_message.png")
